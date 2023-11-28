@@ -1,0 +1,54 @@
+.bg {
+    // background-image: url("../../assets/candidate/candidate3.png");
+    height: calc(100vh - 62px);
+}
+
+.candidate_button1 {
+    position: relative;
+    width: 324px;
+    height: 500px;
+    background-image: url("../../assets/candidate/candidate3.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    &:hover {
+        background-image: url("../../assets/candidate/candidate1-hover.png");
+    }
+}
+
+.candidate_button2 {
+    position: relative;
+    width: 404px;
+    height: 500px;
+    background-image: url("../../assets/candidate/candidate1.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    &:hover {
+        background-image: url("../../assets/candidate/candidate2-hover.png");
+    }
+}
+.candidate_button3 {
+    position: relative;
+    width: 329px;
+    height: 500px;
+    background-image: url("../../assets/candidate/candidate2.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    &:hover {
+        background-image: url("../../assets/candidate/candidate3-hover.png");
+    }
+}
+.candidate_button4 {
+    position: relative;
+    width: 81px;
+    height: 500px;
+    background-image: url("../../assets/candidate/candidate4.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    &:hover {
+        background-image: url("../../assets/candidate/candidate4-hover.png");
+    }
+}
